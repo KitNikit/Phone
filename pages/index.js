@@ -4,13 +4,13 @@ import styles from '../styles/Home.module.css';
 import Navigation from '../components/Navigation';
 import img from '../public/iphone.png';
 import mac from '../public/mac.png';
-import phone from '../public//phone.png';
-import vk from '../public//vk.png';
-import instagram from '../public//instagram.png';
-import fb from '../public//fb.png';
-import twitter from '../public//twitter.png';
-import youtube from '../public//youtube.png';
-import ok from '../public//ok.png';
+import phone from '../public/phone.png';
+import vk from '../public/vk.png';
+import instagram from '../public/instagram.png';
+import fb from '../public/fb.png';
+import twitter from '../public/twitter.png';
+import youtube from '../public/youtube.png';
+import ok from '../public/ok.png';
 import Timer from '../components/timer';
 
 export default function Home() {
