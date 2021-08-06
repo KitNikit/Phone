@@ -4,9 +4,7 @@ class MyDocument extends Document {
 	render() {
 		return (
 			<Html lang='ru'>
-				<Head>
-					<title>Document</title>
-				</Head>
+				<Head></Head>
 				<body>
 					<Main />
 					<NextScript />

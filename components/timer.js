@@ -1,7 +1,6 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
-class test extends React.Component {
+class Timer extends React.Component {
 	state = {
 		seconds: new Date('Aug 08, 2021 14:30:00') - new Date(),
 	};
@@ -52,44 +51,4 @@ class test extends React.Component {
 		);
 	}
 }
-export default test;
-
-// function test() {
-// 	const [curTime, setTime] = useState(Date());
-
-// 	useEffect(() => {
-// 		setInterval(() => setTime(Date()), 1000);
-// 	}, []);
-// 	return (
-// 		<div>
-// 			<h1>Time is:</h1>
-// 			<h2>{curTime}</h2>
-// 		</div>
-// 	);
-// }
-// export default test;
-
-// class test extends React.Component {
-// 	constructor() {
-// 		super();
-// 		this.state = {
-// 			curTime: null,
-// 		};
-// 	}
-// 	componentDidMount() {
-// 		setInterval(() => {
-// 			this.setState({
-// 				curTime: new Date().toLocaleString(),
-// 			});
-// 		}, 1000);
-// 	}
-// 	render() {
-// 		return (
-// 			<div>
-// 				<h1>Time is:</h1>
-// 				<h2>{this.state.curTime}</h2>
-// 			</div>
-// 		);
-// 	}
-// }
-// export default test;
+export default Timer;

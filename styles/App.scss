@@ -1,5 +1,175 @@
 @import '~bootstrap/scss/bootstrap';
 
-.btn {
-	margin-top: 50px;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik One', sans-serif;
+}
+
+.bg {
+	background: url('../../phone/public/fon7.jpg') top / cover no-repeat;
+}
+
+.header {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	padding: 30px 30px 0 30px;
+}
+
+.header a {
+	color: khaki;
+}
+
+.logo {
+	max-height: 4em;
+}
+
+.menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+.header li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+@media (max-width: 600px) {
+	.menu {
+		display: none;
+	}
+	.tel {
+		display: none;
+	}
+	.burger {
+		display: block;
+		margin-left: auto;
+	}
+	.burger-tel img {
+		max-height: 4em;
+	}
+}
+
+@media (min-width: 601px) {
+	.burger {
+		display: none;
+	}
+}
+
+.tel {
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: auto;
+}
+
+.tel:hover,
+.header a:hover {
+	color: gold;
+}
+
+.content {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-transform: uppercase;
+	background: linear-gradient(135deg, #761b94 20%, #fabe0e 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 0.3em 0.6em;
+	border: 3px solid transparent;
+	border-image: linear-gradient(135deg, #761b94 20%, #fabe0e 70%);
+	border-image-slice: 1;
+	text-align: center;
+}
+@media (max-width: 1300px) {
+	.content {
+		top: 18%;
+		font-size: 30px;
+	}
+}
+@media (max-width: 750px) {
+	.content {
+		font-size: 17px;
+	}
+}
+
+.page6 {
+	min-height: 100vh;
+	background: url('../../phone/public/fon11.jpg') center center no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 40%, 100% 70%, 100% 100%, 0% 100%);
+}
+
+.footer {
+	background: rebeccapurple;
+	height: 150px;
+	display: flex;
+}
+
+.social {
+	margin: auto;
+}
+.social img {
+	height: 50px;
+}
+.social img:hover {
+	transform: scale(1.5);
+	filter: grayscale(100%);
+}
+
+.iphone {
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	z-index: 1;
+	transition: all 1s ease-out;
+}
+
+.iphone:hover {
+	transform: scale(1.2);
+}
+@media (max-width: 900px) {
+	.iphone {
+		transform: scale(0.7);
+	}
+}
+
+.timer {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 5;
+	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+	border-radius: 10px;
+	color: darkmagenta;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+}
+.time {
+	font-size: 60px;
+}
+@media (max-width: 900px) {
+	.timer {
+		font-size: 20px;
+		bottom: -50px;
+	}
+	.time {
+		font-size: 50px;
+	}
 }
