@@ -5,12 +5,12 @@ import Navigation from '../components/Navigation';
 import img from '../public/iphone.png';
 import mac from '../public/mac.png';
 import phone from '../public/phone.png';
-import vk from '../public/vk.png';
-import instagram from '../public/instagram.png';
-import fb from '../public/fb.png';
-import twitter from '../public/twitter.png';
-import youtube from '../public/youtube.png';
-import ok from '../public/ok.png';
+import vk from '../public/VK.png';
+import instagram from '../public/Instagram.png';
+import fb from '../public/FB.png';
+import twitter from '../public/Twitter.png';
+import youtube from '../public/Youtube.png';
+import ok from '../public/OK.png';
 import Timer from '../components/timer';
 
 export default function Home() {
