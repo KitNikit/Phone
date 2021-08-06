@@ -3,6 +3,14 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Navigation from '../components/Navigation';
 import img from '../public/iphone.png';
+import mac from '../public/mac.png';
+import phone from '../public//phone.png';
+import vk from '../public//vk.png';
+import instagram from '../public//instagram.png';
+import fb from '../public//fb.png';
+import twitter from '../public//twitter.png';
+import youtube from '../public//youtube.png';
+import ok from '../public//ok.png';
 import Timer from '../components/timer';
 
 export default function Home() {
@@ -10,7 +18,9 @@ export default function Home() {
 		<>
 			<div className='bg'>
 				<header className='header'>
-					<img className='logo' src='/mac.png' />
+					<div className='logo'>
+						<Image src={mac} />
+					</div>
 					<ul className='menu'>
 						<li>
 							<Link href='/'>
@@ -34,7 +44,7 @@ export default function Home() {
 					</a>
 					<div className='burger'>
 						<a href='tel:+79100000000' className='burger-tel'>
-							<img src='/phone.png' />
+							<Image src={phone} />
 						</a>
 					</div>
 				</header>
@@ -47,23 +57,23 @@ export default function Home() {
 				</div>
 				<footer className='footer'>
 					<div className='social'>
-						<a href='/'>
-							<img className='social' src='/vk.png' />
+						<a href='#'>
+							<Image src={vk} />
 						</a>
-						<a href='/'>
-							<img className='social' src='/instagram.png' />
+						<a href='#'>
+							<Image src={instagram} />
 						</a>
-						<a href='/'>
-							<img className='social' src='/fb.png' />
+						<a href='#'>
+							<Image src={fb} />
 						</a>
-						<a href='/'>
-							<img className='social' src='/twitter.png' />
+						<a href='#'>
+							<Image src={twitter} />
 						</a>
-						<a href='/'>
-							<img className='social' src='/youtube.png' />
+						<a href='#'>
+							<Image src={youtube} />
 						</a>
-						<a href='/'>
-							<img className='social' src='/ok.png' />
+						<a href='#'>
+							<Image src={ok} />
 						</a>
 					</div>
 				</footer>
