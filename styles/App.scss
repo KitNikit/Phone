@@ -142,8 +142,8 @@
 	transform: scale(1.2);
 }
 @media (max-width: 900px) {
-	.iphone {
-		transform: scale(0.7);
+	.iphone img {
+		transform: scale(0.6);
 	}
 }
 
@@ -167,7 +167,7 @@
 @media (max-width: 900px) {
 	.timer {
 		font-size: 20px;
-		bottom: -50px;
+		bottom: -14%;
 	}
 	.time {
 		font-size: 50px;
