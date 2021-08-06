@@ -167,7 +167,9 @@
 @media (max-width: 900px) {
 	.timer {
 		font-size: 20px;
-		bottom: -14%;
+		position: relative;
+		top: 500px;
+		// bottom: -14%;
 	}
 	.time {
 		font-size: 50px;
