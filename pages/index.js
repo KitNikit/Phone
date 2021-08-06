@@ -57,24 +57,24 @@ export default function Home() {
 				</div>
 				<footer className='footer'>
 					<div className='social'>
-						<a href='#'>
-							<Image src={vk} />
-						</a>
-						<a href='#'>
-							<Image src={instagram} />
-						</a>
-						<a href='#'>
-							<Image src={fb} />
-						</a>
-						<a href='#'>
-							<Image src={twitter} />
-						</a>
-						<a href='#'>
-							<Image src={youtube} />
-						</a>
-						<a href='#'>
-							<Image src={ok} />
-						</a>
+						{/* <a href='#'> */}
+						<Image src={vk} />
+						{/* </a>
+						<a href='#'> */}
+						<Image src={instagram} />
+						{/* </a>
+						<a href='#'> */}
+						<Image src={fb} />
+						{/* </a>
+						<a href='#'> */}
+						<Image src={twitter} />
+						{/* </a>
+						<a href='#'> */}
+						<Image src={youtube} />
+						{/* </a>
+						<a href='#'> */}
+						<Image src={ok} />
+						{/* </a> */}
 					</div>
 				</footer>
 			</div>
