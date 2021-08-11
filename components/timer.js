@@ -2,7 +2,7 @@ import React from 'react';
 
 class Timer extends React.Component {
 	state = {
-		seconds: new Date('Aug 08, 2021 14:30:00') - new Date(),
+		seconds: new Date('Aug 08, 2022 14:30:00') - new Date(),
 	};
 
 	tick() {
